@@ -2,22 +2,22 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-SerialCommand KEYWORD1
+StreamCommand	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
-addCommand        KEYWORD2
-setDefaultHandler KEYWORD2
-readSerial        KEYWORD2
-clearBuffer       KEYWORD2
-next              KEYWORD2
+addCommand	KEYWORD2
+clearBuffer	KEYWORD2
+next	KEYWORD2
+addDefaultHandler	KEYWORD2
+setDefaultStream	KEYWORD2
+handleChanges	KEYWORD2
 
-#######################################
-# Instances (KEYWORD2)
-#######################################
-
-#######################################
-# Constants (LITERAL1)
-####################################### 
+waitForUserInput	KEYWORD2
+printError	KEYWORD2
+printResponse	KEYWORD2
+printInfo	KEYWORD2
+printOk	KEYWORD2
+waitForUserInput	KEYWORD2
