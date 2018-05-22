@@ -44,7 +44,8 @@
 
 #define MAXDELIMETER 2
 
-#define SERIAL_DEBUG
+//Uncomment this to enable debug output
+//#define SERIAL_DEBUG
 
 
 class StreamCommand : public Print  {
@@ -56,7 +57,7 @@ public:
   #endif
     
   StreamCommand(Stream* defaultStream = &Serial);
-  void handleChanges(Stream* stream = p_defaultStream);
+  void handleChanges(Stream* stream = &Serial);
   void setDefaultStream(Stream* stream) {p_defaultStream = stream;}
   
   //Managing commands
