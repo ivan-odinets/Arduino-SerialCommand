@@ -23,5 +23,5 @@ Responses are printed to stream from which command was recieved. SO it is possib
 Installation:
 =============
 * Download library from https://github.com/ivan-odinets/StreamCommand/archive/master.zip
-* On your arduino ide go to -> Sketch -> Include Library -> Add .ZIP library and select previously downloaded file.
+* On your arduino ide go to Sketch -> Include Library -> Add .ZIP library and select previously downloaded file.
 * Check File -> Examples – > StreamCommand-master for examples of usage
